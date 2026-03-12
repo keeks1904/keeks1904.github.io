@@ -1,0 +1,124 @@
+body {
+    background-color: #F4EFE7;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    text-align: right;
+    padding: 40px 60px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.header h1 {
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    margin-bottom: 0px;
+}
+
+.header2 h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #D08A6B;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #4A6A5A;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.column {
+    float: left;
+    width: 45%;
+    padding: 0 2%;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.column p:first-child {
+    margin-top: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profiilikuva {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 0;
+}
+
+.cv-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.cv-sarake {
+    width: auto;
+    text-align: left;
+}
+
+.nappi-alue {
+    clear: both;
+    text-align: center;
+    padding-top: 40px;
+    width: 100%;
+    display: block;
+}
+
+.nappi {
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.vihrea {
+    background-color: #4A6A5A;
+
+}
+
+.oranssi {
+    background-color: #D08A6B;
+
+}
+
+.yhteystiedot p {
+    margin: 10px 0;
+}
